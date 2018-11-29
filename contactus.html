@@ -1,0 +1,58 @@
+<html>
+	<head> <title> Contact Us </title></head>
+	<body> 
+	<h2 align="center" font color="blue"> Contact Us</h2>
+	
+	<form action="mailto:mnp26@pitt.edu?SUBJECT= My form" method="post" enctype="text/plain">
+	<p>
+	Enter your full name:
+	<input type="text" name="FullName" id="FN" value="Type here" maxlength="50" />
+	</p>
+<!--Pull down menu-->
+	<select name= "Reasonforcommentorquestion" id="topic" size="4">
+	<option> Question about product</option>
+	<option> Question about company</option>
+	<option> Question about company's affiliation with non-profits </option>
+	<option> Question about how to collaborate with your non-profit </option>
+	<option> Suggestions for Product improvement </option>
+	<option> Review of Product </option>
+	</select>
+	
+	<p> 
+<!--Entering text box-->
+	<textarea name="Comments" rows="5" cols="25" id="com" wrap="hard">
+Type your comment or question here.
+	</textarea>
+	</p>
+<!--Radio Buttons-->
+	<p> 
+	Select which type of product you are inquiring about
+	<input type="radio" name="pro" id="P1" value="1" /> Short T-shirt
+	<input type="radio" name="pro" id="P2" value="2" /> Long T-shirt 
+	<input type="radio" name="pro" id="P3" value="3" /> Crewneck
+	<input type="radio" name="pro" id="P4" value="4" /> Hoodie
+
+	</p>
+	<p>
+		Select which print you are inquiring about:
+		<input type="checkbox" name="print" id="P1" value="black" checked /> Black
+		<input type="checkbox" name="print" id="P2" value="blue" /> Blue
+		<input type="checkbox" name="print" id="P3" value="floral" /> Floral
+		<input type="checkbox" name="print" id="P4" value="redcross" /> Red Cross
+		<input type="checkbox" name="print" id="P5" value="army" /> ARMY 
+		<input type="checkbox" name="print" id="P6" value="flannel" /> Flannel
+	
+	</p>
+
+	<p>
+<!--Submit and Reset Buttons-->
+	<input type="submit" name="Submitbutton" id="Sbutton" value="submit your question or comment" />
+	<input type="reset" name="Resetbutton" id="Rbutton" value="reset page" />
+	
+	</p>
+	</form>
+	</body>
+	
+	
+	
+</html>
